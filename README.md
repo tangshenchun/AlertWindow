@@ -12,4 +12,6 @@
 
 ## 调用方法
 
-    [[AlertWindowManager shareManager] showWithAlertWindowTitle:@"请求成功!" alertType:AlertWindowTypeSuccess didSelectedAlertViewWithBlock:nil];
+    [[AlertWindowManager shareManager] showWithAlertWindowTitle:@"请求成功!" 
+                                       alertType:AlertWindowTypeSuccess 
+                                       didSelectedAlertViewWithBlock:nil];
