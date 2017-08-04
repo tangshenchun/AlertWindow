@@ -10,8 +10,8 @@
 
 typedef NS_OPTIONS (NSUInteger ,AlertWindowType) {
     AlertWindowTypeSuccess = 0,
-    AlertWindowypeError ,
-    AlertWindowTypeMessage ,
+    AlertWindowypeError = 1 << 0,
+    AlertWindowTypeMessage = 1 << 1,
 };
 
 
