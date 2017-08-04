@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_OPTIONS (NSInteger ,AlertWindowType) {
+typedef NS_OPTIONS (NSUInteger ,AlertWindowType) {
     AlertWindowTypeSuccess = 0,
     AlertWindowypeError ,
     AlertWindowTypeMessage ,
